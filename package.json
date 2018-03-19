@@ -1,0 +1,40 @@
+{
+  "name": "swiss-watch",
+  "version": "1.0.0",
+  "description": "Simple typescript stopwatch",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register test/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris1234p/swiss-watch.git"
+  },
+  "keywords": [
+    "typescript",
+    "stop",
+    "watch",
+    "timer"
+  ],
+  "author": "Chris Putnam <chris@christopher-putnam.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/chris1234p/swiss-watch/issues"
+  },
+  "homepage": "https://github.com/chris1234p/swiss-watch#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.2",
+    "@types/events": "^1.2.0",
+    "@types/mocha": "^2.2.48",
+    "@types/node": "^9.4.7",
+    "@types/sinon": "^4.3.0",
+    "chai": "^4.1.2",
+    "events": "^2.0.0",
+    "mocha": "^5.0.4",
+    "sinon": "^4.4.6",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2"
+  }
+}
